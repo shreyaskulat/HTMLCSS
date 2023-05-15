@@ -1,0 +1,65 @@
+#HTML5
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section>
+        
+    <div class="profile-card">
+        <img src="https://media.tenor.com/PGLMkx7oy1IAAAAM/style-rajini.gif" alt="">
+        <h4>Rajnikanth</h4>
+        <p class="profile-paragraph">Rajnikanth is a legendary actor known for his unique style and powerful performances. He has a massive fan following and has acted in numerous blockbuster movies.</p> 
+        <h4>12/12/1950</h4>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>   
+    </section>
+    </body>
+</html>
+    #CSS
+    section{
+  width:100%;
+  height:100vh;
+  background-color: black;
+  display:flex
+}
+div{
+  height: 490px;
+  width: 250px;
+  background-color: red;
+  margin-top: 50px;
+  margin-left: 500px;
+  text-align: center;
+  justify-content: space-around;
+  align-items: baseline;
+}
+img{
+  border-radius: 65%;
+  margin-top: 50px;
+}
+.profile-card img {
+  border-radius: 50%;
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  object-fit: cover; /* Maintain aspect ratio and fill the container */
+}
+.profile-card .social-icons i:hover {
+  color: #ff0000; /* Change the color on hover */
+}
+.profile-card .social-icons i {
+  font-size: 50px; /* Adjust the font size as needed */
+  color: #000; /* Adjust the icon color as needed */
+  transition: color 0.3s ease-in-out; /* Apply transition effect on color change */
+  margin-right: 250px; /* Add right margin to create a gap between icons */
+}
+
+
